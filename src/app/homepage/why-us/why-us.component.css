@@ -1,0 +1,23 @@
+.stacked-headers {
+    position: relative; /* Ensure the container is positioned relatively */
+}
+
+.whyus {
+    position: absolute; /* Position the headers absolutely within the container */
+    width: 100%; /* Ensure the headers take full width if needed */
+}
+
+.whyus:nth-child(1) {
+    z-index: 2; /* Ensure the first header is above the second header */
+}
+
+.whyus:nth-child(2) {
+    z-index: 1; /* Ensure the second header is below the first header */
+    transform: translateX(-500px);
+}
+
+.whyPara {
+    position: absolute; /* Position the headers absolutely within the container */
+    width: 100%; /* Ensure the headers take full width if needed */
+    /* padding-left: 30px; */
+}

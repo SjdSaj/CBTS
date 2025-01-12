@@ -3,3 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components { 
+    .whyPara {
+         @apply text-[#460071] indent-20  lg:text-xl font-[350] tracking-wide px-14;
+    } 
+}
